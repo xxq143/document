@@ -6,6 +6,7 @@ cat: 小猫
 # doc | home | page
 layout: doc
 ---
+
 <script setup>
     import {reactive} from 'vue'
     const state = reactive({
