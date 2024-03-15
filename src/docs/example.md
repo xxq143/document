@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/zh/reference/frontmatter-config
 title: Docs with VitePress
+cat: 小猫
 # editLink: true
 # doc | home | page
 layout: doc
@@ -20,7 +21,7 @@ layout: doc
     <button @click="increment">click</button>
 </div>
 
-# $frontmatter.title
+# {{$frontmatter.title}}
 
 [![{{$frontmatter.cat}}](/cat.jpg "cat")](http://tomandjerry.run:8080)
 
