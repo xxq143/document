@@ -6,7 +6,7 @@ export default defineConfig({
   titleTemplate: ':title - C',
   description: "文档记录",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-  base: '/documents/',
+  base: '/document/',
   srcDir: './src',
   cleanUrls: false,
   outDir: './dist',
