@@ -1,0 +1,23 @@
+{
+  "name": "fitful-document",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "vue3 element-plus form",
+  "homepage": "https://github.com/xxq143/o-form/blob/main/README.md",
+  "author": "xiaoxianqi <xiaopinbing@gmail.com>",
+  "funding": "https://github.com/xxq143/document.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxq143/document.git"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "stylus": "^0.63.0",
+    "vitepress": "^1.0.0-rc.45"
+  }
+}
