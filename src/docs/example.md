@@ -22,11 +22,11 @@ layout: doc
     <button @click="increment">click</button>
 </div>
 
-# {{$frontmatter.title}}
+# 测试页面
 
-[![{{$frontmatter.cat}}](/cat.jpg "cat")](http://tomandjerry.run:8080)
+<!-- [![cat](/cat.jpg "cat")](http://tomandjerry.run:8080) -->
 
-![{{$frontmatter.cat}}](/cat.jpg "cat")
+<!-- ![cat](/cat.jpg "cat") -->
 
 ## 二级标题
 
