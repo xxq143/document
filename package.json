@@ -21,6 +21,7 @@
     "vitepress": "^1.0.1"
   },
   "dependencies": {
-    "element-plus": "^2.6.1"
+    "element-plus": "^2.6.1",
+    "markdown-it-task-lists": "^2.1.1"
   }
 }
