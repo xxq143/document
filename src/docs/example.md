@@ -1,7 +1,6 @@
 ---
 # https://vitepress.dev/zh/reference/frontmatter-config
 title: Docs with VitePress
-cat: 小猫
 # editLink: true
 # doc | home | page
 layout: doc
@@ -9,6 +8,8 @@ layout: doc
 
 <script setup>
     import {reactive} from 'vue'
+    import {ElButton} from 'element-plus'
+    import "element-plus/dist/index.css"
     const state = reactive({
         count: 0
     })
@@ -19,7 +20,7 @@ layout: doc
 
 <div class='test'>
     <div>{{state.count}}</div>
-    <button @click="increment">click</button>
+    <el-button type="danger" @click="increment">click</el-button>
 </div>
 
 # 测试页面
@@ -30,12 +31,8 @@ layout: doc
 
 ## 二级标题
 
-
 <style lang="stylus">
     .test
-        button
-            color: red
-            border: 1px solid cyan
-            border-radius: 5px
-            padding: 0 5px
+        color red
+        font-size 30px
 </style>

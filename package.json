@@ -18,6 +18,9 @@
   },
   "devDependencies": {
     "stylus": "^0.63.0",
-    "vitepress": "^1.0.0-rc.45"
+    "vitepress": "^1.0.1"
+  },
+  "dependencies": {
+    "element-plus": "^2.6.1"
   }
 }
