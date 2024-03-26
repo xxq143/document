@@ -6,6 +6,9 @@ hero:
   name: "docs"
   text: ""
   tagline: My great project tagline
+  image:
+    # src: /cat.jpg
+    alt: cat
   actions:
     # - theme: brand
     #   text: Markdown Examples

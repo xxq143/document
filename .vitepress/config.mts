@@ -57,7 +57,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
     footer: {
-      message: '文档',
+      message: '文档记录',
       // copyright: 'Copyright © 2019-present Evan You'
     }
   }
