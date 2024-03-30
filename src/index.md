@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "docs"
-  text: ""
-  tagline: My great project tagline
+  name: "前端"
+  text: "杂记"
+  tagline: 一步两个脚印
   image:
     # src: /cat.jpg
     alt: cat
@@ -17,8 +17,8 @@ hero:
     #   text: API Examples
     #   link: /api-examples
     - theme: alt
-      text: example
-      link: docs/example.md
+      text: 开始
+      link: docs/start.md
 
 features:
   - title: Feature A
@@ -28,4 +28,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
