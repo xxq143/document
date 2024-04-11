@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 import taskLists from "markdown-it-task-lists";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "个人文档",
+  title: "交流平台",
   titleTemplate: ":title",
-  description: "文档记录",
+  description: "交流平台",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   base: "/document/",
   srcDir: "./src",
@@ -26,40 +26,27 @@ export default defineConfig({
     sidebar: [
       {
         text: "简介",
-        collapsed: true,
-        items: [{ text: "开始", link: "/docs/start" }],
-      },
-      {
-        text: "前端",
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: "canvas", link: "/frontend/canvas" },
-          { text: "css", link: "/frontend/css" },
-          { text: "html", link: "/frontend/html" },
-          { text: "javascript", link: "/frontend/javascript" },
-          { text: "oop", link: "/frontend/oop" },
-          { text: "svg", link: "/frontend/svg" },
+          { text: "开始", link: "/docs/start" },
+          { text: "目录", link: "/docs/category" },
         ],
       },
       {
-        text: "后端",
-        collapsed: true,
+        text: "类别",
+        collapsed: false,
         items: [
-          { text: "gin", link: "/backend/gin" },
-          { text: "golang", link: "/backend/golang" },
-          { text: "node", link: "/backend/node" },
+          { text: "电商", link: "/docs/E-commerce" },
+          { text: "地摊", link: "/docs/vendor" },
+          { text: "实体店", link: "/docs/shop" },
+          { text: "其他", link: "/docs/other" },
         ],
       },
-      {
-        text: "组件",
-        collapsed: true,
-        items: [{ text: "组件A", link: "/components/test" }],
-      },
-      {
-        text: "其他",
-        collapsed: true,
-        items: [{ text: "代办列表", link: "/other/todo-list" }],
-      },
+      // {
+      //   text: "其他",
+      //   collapsed: true,
+      //   items: [{ text: "代办列表", link: "/other/todo-list" }],
+      // },
     ],
     search: {
       provider: "local",

@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "前端"
-  text: "杂记"
-  tagline: 一步两个脚印
+  name: "交流平台"
+  text: "转行 创业 交流 分享"
+  tagline: 。。。
   image:
     # src: /cat.jpg
     alt: cat
@@ -19,12 +19,20 @@ hero:
     - theme: alt
       text: 开始
       link: docs/start.md
+    - theme: alt
+      text: 目录
+      link: docs/category.md
+    - theme: alt
+      text: 成员
+      link: member/a.md
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 转行
+    details:
+  - title: 创业
+    details:
+  - title: 交流
+    details:
+  - title: 分享
+    details:
 ---
