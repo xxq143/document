@@ -1,20 +1,20 @@
 <!-- .vitepress/theme/Layout.vue -->
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import { nextTick, provide } from 'vue'
+import { useData } from "vitepress";
+import DefaultTheme from "vitepress/theme";
+import { nextTick, provide } from "vue";
 
-const { isDark } = useData()
+const { isDark } = useData();
 
 const enableTransitions = () =>
-  'startViewTransition' in document &&
-  window.matchMedia('(prefers-reduced-motion: no-preference)').matches
+  "startViewTransition" in document &&
+  window.matchMedia("(prefers-reduced-motion: no-preference)").matches;
 
-provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
+provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
   if (!enableTransitions()) {
-    isDark.value = !isDark.value
-    return
+    isDark.value = !isDark.value;
+    return;
   }
   const pathList = [
     [
@@ -22,7 +22,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       `circle(${Math.hypot(
         Math.max(x, innerWidth - x),
         Math.max(y, innerHeight - y)
-      )}px at ${x}px ${y}px)`
+      )}px at ${x}px ${y}px)`,
     ],
     // [
     //   `polygon(0 0, 100% 0, 100% 0, 0 0)`,
@@ -51,22 +51,22 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     const maxFloored = Math.floor(max);
     return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // 不包含最大值，包含最小值
   }
-  const clipPath = pathList[getRandomInt(0, pathList.length)]
+  const clipPath = pathList[getRandomInt(0, pathList.length)];
 
   await (document as any).startViewTransition(async () => {
-    isDark.value = !isDark.value
-    await nextTick()
-  }).ready
+    isDark.value = !isDark.value;
+    await nextTick();
+  }).ready;
 
   document.documentElement.animate(
     { clipPath: isDark.value ? clipPath.reverse() : clipPath },
     {
       duration: 300,
-      easing: 'linear',
-      pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
+      easing: "linear",
+      pseudoElement: `::view-transition-${isDark.value ? "old" : "new"}(root)`,
     }
-  )
-})
+  );
+});
 </script>
 
 <template>
