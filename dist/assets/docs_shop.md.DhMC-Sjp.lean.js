@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as i,aR as l}from"./chunks/framework.CrFSQ8hF.js";const q=JSON.parse('{"title":"店铺","description":"","frontmatter":{},"headers":[],"relativePath":"docs/shop.md","filePath":"docs/shop.md"}'),t={name:"docs/shop.md"},o=l("",13),r=[o];function h(s,n,d,c,u,_){return i(),e("div",null,r)}const m=a(t,[["render",h]]);export{q as __pageData,m as default};

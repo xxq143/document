@@ -1,0 +1,1 @@
+import{_ as a,c as l,o as i,aR as e}from"./chunks/framework.CrFSQ8hF.js";const m=JSON.parse('{"title":"地摊经济","description":"","frontmatter":{},"headers":[],"relativePath":"docs/vendor.md","filePath":"docs/vendor.md"}'),r={name:"docs/vendor.md"},t=e("",48),o=[t];function h(u,d,n,s,c,b){return i(),l("div",null,o)}const f=a(r,[["render",h]]);export{m as __pageData,f as default};

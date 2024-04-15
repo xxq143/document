@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,aR as o,aS as s}from"./chunks/framework.CrFSQ8hF.js";const b=JSON.parse('{"title":"开始","description":"","frontmatter":{},"headers":[],"relativePath":"docs/start.md","filePath":"docs/start.md"}'),l={name:"docs/start.md"},i=o("",12),r=[i];function c(d,n,h,_,p,u){return e(),t("div",null,r)}const f=a(l,[["render",c]]);export{b as __pageData,f as default};
