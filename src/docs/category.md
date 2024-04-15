@@ -1,21 +1,31 @@
 # 目录
 
-- [成员列表](../member/list)
+- [自媒体](./self-midia)
 
-- 创业方向
+- [电商](./E-commerce)
 
-  - [电商](./E-commerce.md)
+- [实体店](./shop)
 
-  - [实体店](./shop.md)
+  - [网吧](../items/cybercafe)
 
-    - 网吧
+  - [棋牌室](../items/chess-room)
 
-    - 棋牌
+  - [游戏工作室](../items/game-studio)
 
-    - 餐饮
+  - [桌游](../items/board-game)
 
-  - [地摊](./vendor.md)
+- [地摊](./vendor)
 
-  - [独立开发](./development.md)
+  - [早餐](../items/breakfast)
 
-  - [自媒体](./self-midia.md)
+  - [烧烤](../items/barbecue)
+
+- [独立开发](./development)
+
+  - [游戏制作](../items/game-develop)
+
+  - [视频剪辑](../items/video-clip)
+
+# 成员列表
+
+- [团队成员](../member/list)

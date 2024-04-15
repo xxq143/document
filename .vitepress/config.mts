@@ -34,11 +34,39 @@ export default defineConfig({
       },
       {
         text: "类别",
-        collapsed: false,
+        collapsed: true,
         items: [
+          { text: "自媒体", link: "/docs/self-midia" },
           { text: "电商", link: "/docs/E-commerce" },
-          { text: "地摊", link: "/docs/vendor" },
-          { text: "实体店", link: "/docs/shop" },
+          {
+            text: "实体店",
+            link: "/docs/shop",
+            collapsed: true,
+            items: [
+              { text: '网吧', link: "/items/cybercafe" },
+              { text: '棋牌室', link: "/items/chess-room" },
+              { text: '游戏工作室', link: "/items/game-studio" },
+              { text: '桌游', link: "/items/board-game" },
+            ]
+          },
+          {
+            text: "地摊",
+            link: "/docs/vendor",
+            collapsed: true,
+            items: [
+              { text: '早餐', link: "/items/breakfast" },
+              { text: '烧烤', link: "/items/barbecue" },
+            ]
+          },
+          {
+            text: "独立开发",
+            link: "/docs/vendor",
+            collapsed: true,
+            items: [
+              { text: '游戏制作', link: "/items/game-develop" },
+              { text: '视频剪辑', link: "/items/video-clip" },
+            ]
+          },
           { text: "其他", link: "/docs/other" },
         ],
       },

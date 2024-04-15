@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "交流平台"
   text: "转行 创业 交流 分享"
-  tagline: 。。。
+  # tagline: 信息分享，可有效提高容错率
   image:
     # src: /cat.jpg
     alt: cat
